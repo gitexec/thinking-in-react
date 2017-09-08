@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 //import Person from './Person.jsx'
 // import Movies from './Movies.jsx';
 
-import ColoredBox from './ColoredBox.jsx';
+import BoxContainer from './BoxContainer.jsx';
 
 export default class App extends Component {
   constructor(props){
@@ -11,7 +11,7 @@ export default class App extends Component {
 
   render(){
     return (
-      <ColoredBox />
+      <BoxContainer />
     );
   }
 }
